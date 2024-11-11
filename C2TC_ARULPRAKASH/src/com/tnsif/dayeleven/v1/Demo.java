@@ -1,4 +1,3 @@
-//Program without exception handling
 package com.tnsif.dayeleven.v1;
 public class Demo {
 

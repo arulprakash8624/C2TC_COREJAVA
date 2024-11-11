@@ -1,4 +1,3 @@
-//Program to demonstrate Finally block
 
 package com.tnsif.dayeleven.v1;
 
