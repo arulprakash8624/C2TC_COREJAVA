@@ -16,8 +16,7 @@ class Student1 {
 		System.out.println(name);
 		System.out.println(rollnumber);
 	}
-}
-
+}  
 public class _03_assign {
 
 	public static void main(String[] args) {
