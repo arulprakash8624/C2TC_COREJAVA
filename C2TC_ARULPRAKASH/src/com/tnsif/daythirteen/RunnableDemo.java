@@ -20,10 +20,10 @@ public class RunnableDemo {
 		runnable = () -> { 
 			System.out.println("Runnable with Lambda Expression");
 		};
-		
+		System.out.println("-------------------------------------------------------");
+
 		new Thread(runnable).start();
 
-		System.out.println("-------------------------------------------------------");
 		int n=5;
 		runnable = () -> {
 			try {
