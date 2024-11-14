@@ -5,13 +5,13 @@ public class FinalVariable {
 
 	// final int x; // final instance variable must be initialized
 
-	final int x = 100;
+	int x = 100;
 
 	// Declare a static blank final variable.
-	final static int Y;
+	static int Y;
 
 	// Declare & intialize static final variable.
-	final static int Z = 10;
+	static int Z = 10;
 
 	// instatnce method
 	void change() {
