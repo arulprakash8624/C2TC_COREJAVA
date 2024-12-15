@@ -1,4 +1,4 @@
-package com.arulprakash.assignement1;
+package com.arulprakash.assignment.main;
 
 import com.arulprakash.assignment.employees.Developer;
 import com.arulprakash.assignment.employees.Manager;
