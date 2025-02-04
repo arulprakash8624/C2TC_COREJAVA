@@ -3,7 +3,7 @@ package com.arulprakash.assignment.employees;
 public class Developer extends Employee{
 	private String programmingLanguage; 
 	public Developer(String name, int employeeId, double salary, String programmingLanguage) { 
-	super(name, employeeId, salary); 
+	super(name,salary); 
 	this.programmingLanguage = programmingLanguage; 
 	} 
 	public String getProgrammingLanguage() { 

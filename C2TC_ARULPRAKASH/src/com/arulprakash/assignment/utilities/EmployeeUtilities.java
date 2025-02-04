@@ -10,11 +10,23 @@ public class EmployeeUtilities {
         System.out.println("Employee ID: " + employee.getEmployeeId()); 
         System.out.println("Salary: " + employee.getSalary()); 
         if (employee instanceof Manager) { 
+        try {
             Manager manager = (Manager) employee; 
             System.out.println("Department: " + manager.getDepartment()); 
+        }
+        catch (Exception e) {
+        	System.out.println("employee cannot be type casted manager !!!");
+        }
+            
         } else if (employee instanceof Developer) { 
+        	try {
             Developer developer = (Developer) employee; 
-            System.out.println("Programming Language: " + developer.getProgrammingLanguage()); 
+            System.out.println("Programming Language: " + developer.getProgrammingLanguage());
+        	}
+        	catch (Exception e) {
+            	System.out.println("employee cannot be type casted to developer !!!");
+
+        	}
         } 
         System.out.println(); 
     }

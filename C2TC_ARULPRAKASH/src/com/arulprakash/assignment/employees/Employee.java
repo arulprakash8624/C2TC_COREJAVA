@@ -1,12 +1,14 @@
 package com.arulprakash.assignment.employees;
 
+import com.arulprakash.assignment.main.AssignmentMain;
+
 public class Employee {
 	 private String name; 
 	    private int employeeId; 
 	    private double salary; 
-	    public Employee(String name, int employeeId, double salary) { 
+	    public Employee(String name, double salary) { 
 	        this.name = name; 
-	        this.employeeId = employeeId; 
+	        this.employeeId = ++AssignmentMain.empId; 
 	        this.salary = salary; 
 	    }    public String getName() { 
 	        return name; 

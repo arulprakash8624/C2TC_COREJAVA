@@ -3,7 +3,7 @@ package com.arulprakash.assignment.employees;
 public class Manager extends Employee {
 	private String department; 
 	public Manager(String name, int employeeId, double salary, String department) { 
-	super(name, employeeId, salary); 
+	super(name,salary); 
 	        this.department = department; 
 	    }    public String getDepartment() { 
 	        return department; 
